@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="150dp"
+    tools:context="com.example.meesh.lab3.MainActivity">
+
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <TextView android:id="@+id/textView1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:text="Username"
+             android:layout_weight="1"
+             android:layout_gravity="right"
+             tools:ignore="Suspicious0dp" />
+
+         <EditText
+             android:id="@+id/et1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:hint="Enter Username" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/textview4"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="Password"
+             android:layout_gravity="right"/>
+         <EditText
+             android:id="@+id/editText2"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2"
+             android:hint="Enter Password" />
+
+     </LinearLayout>
+
+     <Button
+             android:id="@+id/btn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="login"
+             android:layout_gravity="center"
+             android:background="@color/colorPrimaryDark"/>
+
+<!--<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 3"/>
+    <TextView
+        android:id="@+id/dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/times"
+        android:text="Hello World"/>
+    <TextView
+        android:id="@id/times"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentRight="true"
+        android:text="Hi world"/>
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_centerInParent="true"
+        android:text="Save" />
+</RelativeLayout>-->
+
+<!--    <TableLayout>
+        <TableRow>
+            <Button
+                android:id="@+id/backbutton"
+                android:text="Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="First Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+            <EditText
+                android:width="100px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Last Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+            <EditText
+                android:width="100px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+</TableLayout>-->
+
+    <!--  <AbsoluteLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:text="OK"
+       android:layout_x="50px"
+       android:layout_y="361px" />
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:text="Cancel"
+       android:layout_x="225px"
+       android:layout_y="361px" />
+
+   </AbsoluteLayout>-->
+
+    <!--
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Frame Demo"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background" />
+</FrameLayout>
+-->
+</LinearLayout>
